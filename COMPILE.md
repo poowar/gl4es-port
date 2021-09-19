@@ -48,7 +48,7 @@ It's better to define the CMake Build type, preferably `RelWithDebInfo`, that de
 just do `apt install -y gcc build-essential cmake libx11-dev` 
 
 ```bash
-mkdir build; cd build; cmake -S ../../gl4es; make install
+mkdir build; cd build; cmake -S ../../gl4es-port; make install
 ```
 
 Then export libGL.so.1 to `LD_LIBRARY_PATH`
